@@ -1,4 +1,4 @@
-23848289488222385
+23851754369621546
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85582,6 +85582,13 @@ Test Point
 2
 1
 Power-Monitoring
+INA260
+
+
+0
+16
+16
+Power-Monitoring
 MODULE_NUCLEO-L432KC
 
 
@@ -85595,6 +85602,13 @@ SIP8
 0
 7
 7
+Power-Monitoring
+ST7735
+
+
+0
+10
+10
 Power-Monitoring
 TPS25983
 TPS259823ONRGER-3

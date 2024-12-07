@@ -4965,7 +4965,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 17.018 0)
+			(at -6.35 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +4973,7 @@
 			)
 		)
 		(property "Value" "ST7735R"
-			(at -0.254 15.24 0)
+			(at -6.35 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
