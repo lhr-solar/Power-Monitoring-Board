@@ -1,4 +1,4 @@
-23851754369621546
+23853487962296510
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85581,6 +85581,13 @@ Test Point
 0
 2
 1
+Power-Monitoring
+CONN_1988817
+
+1988817 
+0
+3
+3
 Power-Monitoring
 INA260
 
