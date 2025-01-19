@@ -8,4 +8,7 @@
   (lib (name "utsvt-misc")(type "KiCad")(uri "${KIPRJMOD}/../UTSVT-KiCadLibraries/utsvt-misc.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-power-regulators")(type "KiCad")(uri "${KIPRJMOD}/../UTSVT-KiCadLibraries/utsvt-power-regulators.kicad_sym")(options "")(descr ""))
   (lib (name "INA260AIPWR")(type "KiCad")(uri "${KIPRJMOD}/INA260AIPWR (1)/INA260AIPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "XC6222D331MR-G")(type "KiCad")(uri "C:/Users/kaden/Downloads/LIB_XC6222D331MR-G/XC6222D331MR-G/KiCad/XC6222D331MR-G.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-01-08_04-45-24")(type "KiCad")(uri "C:/Users/kaden/Downloads/GF_123_0054/KiCADv6/2025-01-08_04-45-24.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-01-08_04-59-47")(type "KiCad")(uri "C:/Users/kaden/Downloads/ul_MAX17043G-U/KiCADv6/2025-01-08_04-59-47.kicad_sym")(options "")(descr ""))
 )

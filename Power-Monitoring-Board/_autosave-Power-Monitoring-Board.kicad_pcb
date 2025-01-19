@@ -1119,15 +1119,15 @@
 			(solder_mask_margin 0.102)
 			(uuid "51e492d1-099e-462d-ad5d-0c6f4b91d44c")
 		)
-		(model "${KIPRJMOD}/282837-2/282837-2.step"
+		(model "${KIPRJMOD}/282837_2/c-282837-2-g2-3d.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 4 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 0 -180)
 			)
 		)
 	)
@@ -2667,9 +2667,9 @@
 			(solder_mask_margin 0.102)
 			(uuid "8b1db33d-b3cc-454a-96b0-434962b161a8")
 		)
-		(model "${KIPRJMOD}/282837-2/282837-2.step"
+		(model "${KIPRJMOD}/282837_2/c-282837-2-g2-3d.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -4 3)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5229,7 +5229,7 @@
 			(pintype "passive")
 			(uuid "3822ed87-953b-4fcd-a00d-c1030a6b457f")
 		)
-		(model "C:/Users/Okafo/LHR/Power-Monitoring-Board/Power-Monitoring-Board/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
+		(model "${KIPRJMOD}/UTSVT-KiCadLibraries/utsvt3d/connectors.3dshapes/436500227.stp"
 			(offset
 				(xyz 1.5 0 4)
 			)
@@ -9245,7 +9245,7 @@
 		)
 		(fp_arc
 			(start 3.5 3.25)
-			(mid 3.80926 3.345922)
+			(mid 3.809266 3.345926)
 			(end 4.01 3.6)
 			(stroke
 				(width 0.05)
@@ -9256,7 +9256,7 @@
 		)
 		(fp_arc
 			(start 4.01 -3.6)
-			(mid 3.809264 -3.345927)
+			(mid 3.809265 -3.345927)
 			(end 3.5 -3.25)
 			(stroke
 				(width 0.05)
