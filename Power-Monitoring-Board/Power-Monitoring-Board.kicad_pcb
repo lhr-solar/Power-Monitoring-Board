@@ -127,7 +127,7 @@
 		(at 57.03 112.29 90)
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
-		(property "Reference" "TP3"
+		(property "Reference" "GND"
 			(at -0.07 -2.758 90)
 			(layer "F.SilkS")
 			(uuid "3d8dce4f-f5d4-4a0f-a9d2-87e76694c012")
@@ -753,9 +753,10 @@
 		(at 57 102 90)
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
-		(property "Reference" "TP2"
+		(property "Reference" "-"
 			(at -0.24 -2.768 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "329fe952-5c4e-4646-9b92-3175c5e5093b")
 			(effects
 				(font
@@ -1347,8 +1348,8 @@
 		(at 165 69.3 -90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D3"
-			(at 0 -1.65 90)
+		(property "Reference" "Batt_On"
+			(at -0.02 -1.95 90)
 			(layer "F.SilkS")
 			(uuid "1f5a469f-1583-4e8d-be08-fd0984f9ed5f")
 			(effects
@@ -1359,7 +1360,7 @@
 			)
 		)
 		(property "Value" "Batt_On_LED"
-			(at 0 1.65 90)
+			(at 0.62 2.12 90)
 			(layer "F.Fab")
 			(uuid "4b878cbd-2967-4bc2-93c5-ec0c09d533a1")
 			(effects
@@ -2672,7 +2673,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "20d6d2c9-7d02-4172-b9f7-ad24329230de")
 			(effects
@@ -2683,7 +2684,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at -36.025 -31.57 270)
+			(at -36.025 -31.57 -90)
 			(layer "B.Fab")
 			(uuid "22d843b6-8baa-4f7d-8b88-c78e9a1c7318")
 			(effects
@@ -2839,7 +2840,7 @@
 			(uuid "ecf04ce0-11d8-401c-a4fb-6e04e796c2ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "f41aff0f-8dbc-44d7-8fe2-0b5b9a5cf139")
 			(effects
@@ -3848,7 +3849,7 @@
 		(at 173.5 107.325 180)
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
-		(property "Reference" "TP5"
+		(property "Reference" "3.3V"
 			(at 0.09 2.58 180)
 			(layer "F.SilkS")
 			(uuid "2b41c85e-6a57-49a1-a9fc-2ddf65f68ac8")
@@ -4545,7 +4546,7 @@
 		(at 57.3 79.2 90)
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
-		(property "Reference" "TP4"
+		(property "Reference" "GND"
 			(at 0 -2.498 90)
 			(layer "F.SilkS")
 			(uuid "2cb744ea-e8cd-4c05-a921-0211123e50b0")
@@ -5659,8 +5660,8 @@
 		(at 158.975 69.3 -90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D1"
-			(at 0 -1.65 90)
+		(property "Reference" "On"
+			(at 0.2 -2.025 90)
 			(layer "F.SilkS")
 			(uuid "64cb5aab-a546-4c58-b649-b9e8065e2619")
 			(effects
@@ -5894,8 +5895,8 @@
 		(at 152.75 69.375 -90)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D2"
-			(at 0 -1.65 90)
+		(property "Reference" "Alert"
+			(at 0.125 -1.91 90)
 			(layer "F.SilkS")
 			(uuid "a22dffa4-9a61-4f8e-9983-156cc3bb6949")
 			(effects
@@ -5906,7 +5907,7 @@
 			)
 		)
 		(property "Value" "Alert_LED"
-			(at 1.9425 1.64 90)
+			(at 1.615 2.42 90)
 			(layer "B.Fab")
 			(uuid "ff6f4643-ba67-4c26-94dd-d2fa0452f918")
 			(effects
@@ -6962,7 +6963,7 @@
 		(at 173.4 89.85)
 		(descr "Plated Hole as test Point, diameter 2.0mm")
 		(tags "test point plated hole")
-		(property "Reference" "TP6"
+		(property "Reference" "Battery"
 			(at 0 -2.498 0)
 			(layer "F.SilkS")
 			(uuid "086c9b22-1280-48c9-b720-1e8dbca273dc")
@@ -9242,7 +9243,7 @@
 		)
 		(fp_arc
 			(start 4.01 -3.6)
-			(mid 3.809264 -3.345931)
+			(mid 3.809264 -3.345927)
 			(end 3.5 -3.25)
 			(stroke
 				(width 0.05)
@@ -10428,7 +10429,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "B.SilkS")
 			(uuid "b0628eb9-e94c-48ea-b057-13e7d4feeb71")
 			(effects
@@ -10440,7 +10441,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "B.Fab")
 			(uuid "d8946397-1130-48e2-9e19-c5c87eeb1b9c")
 			(effects
@@ -10599,7 +10600,7 @@
 			(uuid "19361864-bf84-47a7-ba0b-e14042091a6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "50722602-9fa0-48de-9132-924c1787f868")
 			(effects
@@ -11075,7 +11076,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "B.SilkS")
 			(uuid "b646dc68-7e54-4e59-a6e3-368468185908")
 			(effects
@@ -11087,7 +11088,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.65 270)
+			(at 0 -1.65 -90)
 			(layer "B.Fab")
 			(uuid "58023f68-5ce6-48d9-b093-d4a35a3bf2b3")
 			(effects
@@ -11246,7 +11247,7 @@
 			(uuid "7f52f040-50f9-4249-a611-989b0f8ccacb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "084e3ed2-4543-4177-916c-3ce2ff34d012")
 			(effects
@@ -11372,7 +11373,7 @@
 		(uuid "fc110323-cd7f-42f1-a48a-c18b213c0f17")
 	)
 	(gr_text "Power Monitor v.1        \nLHRs   \nKaden Nguyen\nBosa Okafo\n                          \n\n"
-		(at 94.5 119 0)
+		(at 93.71 119.09 0)
 		(layer "F.SilkS")
 		(uuid "198fcc20-8a68-4cae-bdb9-c2de1255b5cc")
 		(effects
@@ -11381,6 +11382,18 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "+\n"
+		(locked yes)
+		(at 54.32 89.15 90)
+		(layer "F.SilkS")
+		(uuid "4be90592-4d52-455b-b87f-dc8f66f9d805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "-\n"
@@ -11407,6 +11420,17 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 54.39 102.35 90)
+		(layer "F.SilkS")
+		(uuid "d0f56dc9-5d60-446d-9a87-0c2415403cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(dimension
